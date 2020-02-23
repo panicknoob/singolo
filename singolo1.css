@@ -1,0 +1,268 @@
+body {
+    width: 1020px;
+    
+}
+
+/* HEADER */
+div.container {
+    width: 1020px;
+    height: 89px;
+    background-color: #2d303a;
+}
+
+.header_inner {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.header_logo_logo h1{
+    font-size: 25px;
+    line-height: 6px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
+    margin-right: auto;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.header_logo_logo span{
+    color: #f06c64;
+}
+
+.nav {
+    font-size: 12px;
+    text-transform: uppercase ;
+    color: white;
+}
+
+.nav_link {
+    display: inline-block;
+    vertical-align: auto;
+    margin-left: 23px;
+    color: #fff;
+    text-decoration: none; 
+    font-family: 'Lato Bolt', sans-serif;    
+    padding-top: 35px;   
+}
+
+nav a:hover{
+    cursor: pointer;
+    color: #f06c64;
+}
+
+div.headerBottoms{
+    width: 1020px;
+    height: 6px;
+    background-color:#323746; 
+}
+
+
+/* SLIDER */
+.main{
+    display: flex;
+    width: 1020px;
+    height: 595px;
+    background-color: #f06c64;
+}
+
+/* left */
+.left {
+    width: 100px;
+    height: 450px;
+   
+}
+
+.left div{
+    background-image: url("assets/images/chev-left.svg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    margin-top: 280px;
+    margin-left: 40px;
+}
+
+.left div:hover {
+    background-image: url("assets/images/chev-left2.svg");
+    cursor: pointer;
+}
+
+/* vhpone */
+.vhpone {
+    width: 260px;
+    height: 550px;   
+}
+
+.vhpone div {
+    width:260px;
+    height: 550px;
+    background-image: url("assets/images/iPhone Vertical.svg");
+    background-position: left bottom;
+    margin-left: 19px;
+    margin-top: 11px;
+}
+
+/* ghpone */
+.ghpone {
+    width: 600px;
+    height: 450px;    
+}
+
+.ghpone div {
+    widows: 485px;;
+    height: 400px;
+    background-image: url("assets/images/iPhone Horizontal.svg");
+    margin-left: 7px; 
+    margin-top: 68px; 
+}
+
+
+/* right */
+.right {
+    width: 100px;
+    height: 450px;    
+}
+
+.right div{
+    background-image: url("assets/images/chev-right.svg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    margin-top: 280px;
+    margin-left: 40px;
+}
+
+.right div:hover {
+    background-image: url("assets/images/chev-right2.svg");
+    cursor: pointer;
+}
+
+div.mainBottoms{
+    width: 1020px;
+    height: 5px;
+    background-color:#ea676b; 
+}
+
+
+/* SERVICES */
+.services {
+    /* display: flex; */
+    width: 1020px;
+    height: 500px;
+    background-color: #fff;
+}
+
+/* top */
+.top {
+    width: 1020px;
+    height: 150px;
+    
+    position:relative;   
+}
+
+/* top title */
+.services_top_title {
+    width: 1020px;
+    height: 89;
+    font-size: 15px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-left: 38px;
+    position: top;
+       
+}
+.our_services{
+    margin-top: 68px;   
+}
+
+/* top text */
+.services_top_text {
+    width: 940px;
+    height: 130px;
+    margin-left: 40px;   
+}
+.services_text{
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    letter-spacing: .1px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left; 
+    margin-top: 28px;
+}
+
+
+/* bottom */
+.bottom {
+    width: 940;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-left: 43px;
+}
+                
+.pen {
+    background-image: url("assets/images/Pen.svg");
+    background-repeat: no-repeat;
+    width: 310px;
+    height: 120px;   
+}
+
+.bulb {
+    margin-left: 7px;
+    background-image: url("assets/images/Bulb.svg");
+    background-repeat: no-repeat;
+    width: 310px;
+    height: 120px;   
+}
+
+.heart {
+    margin-left: 10px;
+    background-image: url("assets/images/Heart.svg");
+    background-repeat: no-repeat;
+    width: 310px;
+    height: 120px;   
+}
+.phone {
+    background-image: url("assets/images/Phone.svg");
+    background-repeat: no-repeat;
+    width: 310px;
+    height: 120px;   
+}
+.bubble {
+    margin-left: 7px;
+    background-image: url("assets/images/Bubble.svg");
+    background-repeat: no-repeat;
+    width: 310px;
+    height: 120px;   
+}
+.star {
+    margin-left: 10px;
+    background-image: url("assets/images/Star.svg");
+    background-repeat: no-repeat;
+    width: 310px;
+    height: 120px;   
+}
+
+.ServicesBottoms{
+    
+    width: 1020px;
+    
+       
+}
+.ServicesBottoms div{
+    margin-top: 25px;
+    width: 1020px;
+    height: 6px;
+    background-color:#ffffff;    
+}
